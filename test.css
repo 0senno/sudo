@@ -1,0 +1,473 @@
+a {
+    color: orange
+}
+
+body {
+    background: #141414;
+    color: #fff
+}
+
+button {
+    background: 0 0;
+    color: #fff
+}
+
+input,textarea,.post_input_container {
+    background: #151515;
+    border: 1px solid #222!important;
+    color: #fff
+}
+
+.setdef {
+    color: #fff
+}
+
+.cookie_wrap {
+    background: #333;
+    color: #fff
+}
+
+.bback {
+    background: rgb(255,255,255,.05)
+}
+
+.bbackb {
+    background: rgb(255,255,255,.05);
+    border: 1px solid rgb(255,255,255,.08)
+}
+
+.bhover:hover {
+    background: rgb(255,255,255,.05)
+}
+
+.bbackhover {
+    background: rgb(255,255,255,.05)
+}
+
+.bbackhover:hover {
+    background: rgb(255,255,255,.03)
+}
+
+.bbackhoverb {
+    background: rgb(255,255,255,.05)
+}
+
+.bbackhoverb:hover {
+    background: rgb(255,255,255,.3);
+    border: 1px solid rgb(255,255,255,.05)
+}
+
+.blisting {
+    border-bottom: 1px solid rgb(255,255,255,.03)
+}
+
+.blisting:hover {
+    background: rgb(255,255,255,.04)
+}
+
+.blist {
+    border-bottom: 1px solid rgb(255,255,255,.03)
+}
+
+.back_ptop {
+    background: #212121;
+    color: #fff
+}
+
+.bpmenu:hover {
+    background: rgb(255,255,255,.05)
+}
+
+.bsub {
+    background: rgb(0,0,0,.1)
+}
+
+.bsub:hover {
+    background: rgb(255,255,255,.03)
+}
+
+.bmenu,.submenu {
+    border-bottom: 1px solid rgb(255,255,255,.03)
+}
+
+.bmenu:hover,.submenu:hover {
+    background: rgb(255,255,255,.03)
+}
+
+.bshadow,.page_element,.float_menu,.btnshadow,.pboxed {
+    box-shadow: 0 1px 3px rgb(0,0,0,.4)
+}
+
+.bselected {
+    background: rgb(255,255,255,.08)
+}
+
+.rselected {
+    background: rgb(255,255,255,.08)
+}
+
+.pselected {
+    color: #03add8
+}
+
+.cselected,.liked {
+    background: rgb(255,255,255,.05)
+}
+
+.pag_btn {
+    background: rgb(255,255,255,.05)
+}
+
+.pagselected,.pag_btn:hover {
+    background: rgb(255,255,255,.1)
+}
+
+.gtag {
+    background: #111;
+    border: 1px solid rgb(255,255,255,.05)
+}
+
+.bborder {
+    border-bottom: 1px solid rgb(255,255,255,.05)
+}
+
+.tborder {
+    border-top: 1px solid rgb(255,255,255,.05)
+}
+
+.lborder,.ppanel {
+    border-left: 1px solid rgb(255,255,255,.05)
+}
+
+.rborder {
+    border-right: 1px solid rgb(255,255,255,.05)
+}
+
+.fborder {
+    border: 1px solid rgb(255,255,255,.05)
+}
+
+.float_top {
+    border-bottom: 1px solid rgb(255,255,255,.05)
+}
+
+.float_ctop {
+    border-bottom: 1px solid rgb(255,255,255,.05)
+}
+
+.bhead {
+    background: #111;
+    color: #fff
+}
+
+.modal_top {
+    background: #111;
+    color: #fff
+}
+
+.pro_top {
+    background: #111;
+    color: #fff
+}
+
+.bfoot {
+    background: #111;
+    color: #fff
+}
+
+.foot {
+    background: #111;
+    color: #fff
+}
+
+.backglob {
+    background: #151515
+}
+
+.back_chat {
+    background: #151515
+}
+
+.back_priv {
+    background: #151515
+}
+
+.back_panel {
+    background: #191919
+}
+
+.back_menu {
+    background: #242424
+}
+
+.back_pmenu {
+    background: #151515
+}
+
+.back_box {
+    background: #202020
+}
+
+.back_input {
+    background: #191919;
+    border-top: 1px solid rgb(255,255,255,.05)
+}
+
+.back_modal {
+    background: #191919
+}
+
+.page_element {
+    background: #191919
+}
+
+.back_quote {
+    background: #191919
+}
+
+.theme_color {
+    color: #03add8
+}
+
+.default_color {
+    color: #666
+}
+
+.error {
+    color: red
+}
+
+.success {
+    color: #74b20e
+}
+
+.warn {
+    color: orange
+}
+
+.theme_btn,.back_theme {
+    background: #03add8;
+    color: #fff
+}
+
+.default_btn,.back_default {
+    background: #333;
+    color: #fff
+}
+
+.defaultd_btn {
+    background: #444;
+    color: #fff
+}
+
+.ok_btn {
+    background: #74b20e;
+    color: #fff
+}
+
+.warn_btn {
+    background: orange;
+    color: #fff
+}
+
+.delete_btn {
+    background: #c00;
+    color: #fff
+}
+
+.send_btn {
+    color: #f6f6f6
+}
+
+.user {
+    color: #fff
+}
+
+.chat_system {
+    color: #999
+}
+
+.offline {
+    opacity: .5
+}
+
+.menui {
+    color: #03add8
+}
+
+.subi {
+    color: #03add8
+}
+
+.reply_item {
+    background: #151515
+}
+
+.main_post_item {
+    color: rgb(255,255,255,.5)
+}
+
+.input_item {
+    color: #666
+}
+
+.target_private,.hunt_quote {
+    color: #fff;
+    background: #444
+}
+
+.hunter_private,.targ_quote {
+    color: #fff;
+    background: #222
+}
+
+.cquote {
+    background: rgb(255,255,255,.05)!important
+}
+
+.cqname {
+    color: #999
+}
+
+.cqmess {
+    color: #666
+}
+
+.tab_menu {
+    box-shadow: 0 1px 3px rgb(0,0,0,.4)
+}
+
+.tab_selected {
+    background: rgb(255,255,255,.05)
+}
+
+.modal_mback {
+    background: rgb(255,255,255,.04)
+}
+
+.modal_mborder {
+    border-bottom: 1px solid rgb(255,255,255,.08)
+}
+
+.modal_selected {
+    background: rgb(255,255,255,.08)
+}
+
+.modal_back {
+    background-color: rgba(0,0,0,.6)
+}
+
+.log2 {
+    background: rgb(0,0,0,.05)
+}
+
+.topic_log {
+    background: #0d261a;
+    color: #d9f2e6
+}
+
+.sys_log {
+}
+
+.bprogress {
+    background: #74b20e;
+    color: #fff
+}
+
+.bnotify {
+    background: red;
+    color: #fff
+}
+
+.foot_notify,.head_notify {
+    border: 1px solid #fff
+}
+
+.sub_date {
+    color: #888
+}
+
+.sub_chat,.sub_priv {
+    color: #666
+}
+
+.sub_text,.list_mood {
+    color: #888
+}
+
+.plikes {
+    background-color: rgba(100,100,100,.2);
+    color: #fff
+}
+
+.bspin {
+    color: rgb(255,255,255,.3)
+}
+
+.my_notice {
+    color: #fff;
+    background: #069
+}
+
+.system_text {
+    background: rgb(255,255,255,.05);
+    color: #888
+}
+
+.back_page {
+    background: #111;
+    color: #fff
+}
+
+.post_video {
+    background: rgb(0,0,0,1)
+}
+
+.boom_slider .ui-widget-content {
+    background: #333
+}
+
+.boom_slider .ui-state-default {
+    background: #ccc!important
+}
+
+.boom_slider .ui-state-active {
+    background: #ccc!important
+}
+
+.boom_slider .ui-slider-range {
+    background: #666
+}
+
+.selectboxit-list,.selectboxit-btn {
+    background-color: #151515;
+    border: 1px solid #222;
+    color: #fff
+}
+
+.selectboxit-list .selectboxit-focus .selectboxit-option-anchor {
+    background-color: #333;
+    color: #fff
+}
+
+.selectboxit-default-arrow {
+    border-top: 4px solid #666
+}
+
+.selectboxit-btn.selectboxit-enabled:hover,.selectboxit-btn.selectboxit-enabled:focus,.selectboxit-btn.selectboxit-enabled:active {
+    background: #151515;
+    color: #fff
+}
+
+.selectboxit-options {
+    background: #222;
+    color: #fff
+}
+
+.selectboxit-list .selectboxit-option-anchor {
+    color: #666
+}
+
+.modal_in {
+    border: 1px solid rgb(255,255,255,.01)
+}
