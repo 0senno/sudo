@@ -1,0 +1,58 @@
+-- Function to calculate the distance between two Vector3 positions
+local function getDistance(position1, position2)
+    return (position1 - position2).Magnitude
+end
+
+local actionFlag = false  -- Initialize the action flag to false
+
+while true do
+    -- Get the LocalPlayer and their position
+    local playerService = game:GetService("Players")
+    local localPlayer = playerService.LocalPlayer
+    local localPlayerPosition = localPlayer.Character.HumanoidRootPart.Position
+
+    -- Initialize variables for storing the nearest player and their distance
+    local nearestPlayer = nil
+    local nearestDistance = 60  -- Set an initial value greater than the radius
+
+    -- Iterate through all players in the game
+    for _, player in pairs(playerService:GetPlayers()) do
+        -- Check if the player is not the LocalPlayer
+        if player ~= localPlayer then
+            -- Check if the player has a valid character
+            if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+                local playerPosition = player.Character.HumanoidRootPart.Position
+                local distance = getDistance(localPlayerPosition, playerPosition)
+
+                -- Check if the player is within 30 blocks and closer than the current nearest player
+                if distance <= 60 and distance < nearestDistance then
+                    nearestPlayer = player
+                    nearestDistance = distance
+                end
+            end
+        end
+    end
+
+    -- If a nearest player was found, use their username for the intended action
+    if nearestPlayer then
+        if not actionFlag then
+            actionFlag = true
+        end
+
+        local targetPart = game:GetService("Workspace")[nearestPlayer.Name].Head
+        targetPart.CanCollide = false
+
+        local args = {
+            [1] = targetPart.Position
+        }
+
+        game:GetService("Players").LocalPlayer.Character.Shuriken.HitEvent:FireServer(targetPart.Position)
+    else
+        if actionFlag then
+            actionFlag = false
+        end
+    end
+
+    -- Shorter wait time for more frequent execution (adjust as needed)
+    wait(0.1)  -- Wait for 0 seconds before checking again
+end
